@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<!-- {{}} Mustache -->
+<!-- 数据绑定 date里 -->
+<view>hello {{name}},{{age}}</view>
+
+<!-- 列表展示 -->
+<!-- <view>{{students[0].name}}</view> -->
+
+<!-- 列表循环 -->
+<view wx:for="{{students}}">{{item.id}},{{item.name}}</view>
+
+<!-- 事件监听 -->
+<view>点击次数：{{counter}}</view>
+<button size="mini" bindtap="dianji">+</button>
+<button size="mini" bindtap="jianshao">-</button>

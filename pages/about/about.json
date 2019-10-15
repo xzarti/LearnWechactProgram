@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "关于页面",
+  "navigationBarBackgroundColor": "#ff0000",
+  "enablePullDownRefresh": true
+}

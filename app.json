@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "orange",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/图库/ac.png",
+        "selectedIconPath": "assets/图库/ac.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "assets/图库/ae.png",
+        "selectedIconPath": "assets/图库/ab.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap24.json"
+}
